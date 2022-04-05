@@ -1,24 +1,30 @@
 1) Посмотреть где я 
-•	pwd 
+
+        • pwd 
 
 2) Создать папку 
-•	mkdir papka_1
+
+        • mkdir papka_1
 
 3) Зайти в папку 
-•	cd papka_1
+
+        • cd papka_1
 
 4) Создать 3 папки 
-•	mkdir papka_11 papka_22 papka_33
+
+        • mkdir papka_11 papka_22 papka_33
 
 5) Зайти в любую папку 
-•	cd papka_11
+
+        • cd papka_11
 
 6) Создать 5 файлов (3 txt, 2 json) 
-touch file_1.txt 
-touch file_2.txt
-touch file_3.txt
-touch file_4.json
-touch file_5.json
+
+        touch file_1.txt 
+        touch file_2.txt
+        touch file_3.txt
+        touch file_4.json
+        touch file_5.json
 
 7) Создать 3 папки 
 mkdir folder_1 folder_2 folder_3
