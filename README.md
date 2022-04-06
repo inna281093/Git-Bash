@@ -154,16 +154,28 @@ Task_1
 2) Написать скрипт который выполнит автоматически пункты 3, 4, 5, 6, 7, 8, 13
 
 cat > script.sh << EOF
+
 #!/bin/bash
+
 pwd
+
 mkdir folder_basic
+
 cd folder_basic
+
 mkdir folder_1 folder_2 folder_3
+
 cd folder_3
+
 touch {1text.txt,2text.txt,3text.txt,1json.json,2json.json}
+
 mkdir script_folder1 script_folder2 script_folder3
+
 ls -la
+
 mv {1text.txt,1json.json} ../folder_3/script_folder2
+
+EOF
 
 • chmod +x script.sh
 
